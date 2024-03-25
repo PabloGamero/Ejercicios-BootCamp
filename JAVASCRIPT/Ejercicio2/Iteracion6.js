@@ -18,14 +18,14 @@ const duplicates = [
 ];
 
 const removeDuplicates = (array) => {
-  const lista = [];
+  const comidas = [];
 
   for (i = 0; i < array.length; i++) {
-    if (!lista.includes(array[i])) {
-      lista.push(array[i]);
+    if (!comidas.includes(array[i])) {
+      comidas.push(array[i]);
     }
   }
-  return lista;
+  return comidas;
 };
 
 console.log(removeDuplicates(duplicates));
