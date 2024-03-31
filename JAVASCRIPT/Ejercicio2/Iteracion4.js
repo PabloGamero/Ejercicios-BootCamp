@@ -10,6 +10,9 @@ function average(promedio) {
     suma = suma + promedio[i];
   }
   return suma / promedio.length;
-  // insert code
 }
 console.log(average(numbers1));
+
+// i = 0
+// promedio.length = 7
+// promedio[i] = 12
