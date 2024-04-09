@@ -51,6 +51,7 @@ boxList.forEach(function (box, index) {
       }
       movesArray[index] = turn;
       const mayWinner = numberWin();
+
       if (mayWinner) {
         const lineWinner = document.createElement("div");
         lineWinner.classList.add("line");

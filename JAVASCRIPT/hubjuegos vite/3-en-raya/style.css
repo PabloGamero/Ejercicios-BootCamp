@@ -2,11 +2,15 @@ body {
   background-color: #1a2f51;
   font-family: cursive;
 }
-#game {
+.game {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   padding: 10px;
   background-color: aqua;
   background-image: url(images/montana-bosque-selva-arboles-dibujos-animados-fondo-generativo-ai.jpg);
-  background-size: 500px;
+
+  background-size: cover;
 }
 h1 {
   color: whitesmoke;
