@@ -16,9 +16,9 @@ const template = () => `
         </figure>
       </li>
       <li>
-        <figure>
+        <figure id = "gameTresEnRaya">
           <img
-            src="https://res.cloudinary.com/dq186ej4c/image/upload/v1689761641/pngwing.com_1_iq8zfk.png"
+            src="https://res.cloudinary.com/di4wx5tlx/image/upload/v1712696715/tresEnRaya_jvjlj9.jpg"
             alt=" go to wacka topo game"
           />
           <h2>WACKA TOPO</h2>
@@ -49,6 +49,11 @@ const addEventListeners = () => {
   const navigateMemory = document.getElementById("navigateMemory");
   navigateMemory.addEventListener("click", () => {
     initControler("Memory");
+  });
+
+  const navigateTresEnRaya = document.getElementById("gameTresEnRaya");
+  navigateTresEnRaya.addEventListener("click", () => {
+    initControler("TresEnRaya");
   });
 };
 
