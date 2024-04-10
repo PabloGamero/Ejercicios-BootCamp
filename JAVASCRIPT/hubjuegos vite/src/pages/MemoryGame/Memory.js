@@ -30,7 +30,7 @@ const starGame = () => {
       position: "center",
       title: "SUERTEEE 😘",
       imageUrl:
-        "https://res.cloudinary.com/dq186ej4c/image/upload/v1712312456/WmP_nkjrov.gif",
+        "https://res.cloudinary.com/di4wx5tlx/image/upload/v1712767369/one_piece_GIF_-_Find_Share_on_GIPHY_chhled.gif",
       imageHeight: 300,
       imageAlt: "A tall image",
       showConfirmButton: false,

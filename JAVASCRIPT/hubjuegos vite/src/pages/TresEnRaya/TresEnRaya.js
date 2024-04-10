@@ -2,9 +2,10 @@ import "./TresEnRaya.css";
 
 const template = () => {
   return `
-      <h1>3 en raya</h1>
+      
    
     <div class="game">
+    <h1>3 en raya</h1>
       <div class="table">
         <div class="box"></div>
         <div class="box"></div>
@@ -72,7 +73,7 @@ const start = () => {
           box.classList.add("mark-o");
         }
         movesArray[index] = turn;
-        const mayWinner = numberWin();
+        const mayWinner = numberWin(movesArray);
 
         if (mayWinner) {
           const lineWinner = document.createElement("div");

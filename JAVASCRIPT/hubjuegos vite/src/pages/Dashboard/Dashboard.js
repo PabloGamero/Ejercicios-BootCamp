@@ -21,7 +21,7 @@ const template = () => `
             src="https://res.cloudinary.com/di4wx5tlx/image/upload/v1712696715/tresEnRaya_jvjlj9.jpg"
             alt=" go to wacka topo game"
           />
-          <h2>WACKA TOPO</h2>
+          <h2>TRES EN RAYA</h2>
         </figure>
       </li>
       <li>

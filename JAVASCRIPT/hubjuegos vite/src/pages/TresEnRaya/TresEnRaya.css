@@ -3,26 +3,28 @@ body {
   font-family: cursive;
 }
 .game {
+  text-align: center;
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
   padding: 10px;
   background-color: aqua;
   background-image: url(images/montana-bosque-selva-arboles-dibujos-animados-fondo-generativo-ai.jpg);
-  height: 200px;
-  width: 200px;
   background-size: cover;
 }
 h1 {
   color: whitesmoke;
   text-align: center;
+  display: flex;
+  margin: 100px;
 }
 .table {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   grid-template-rows: 1fr 1fr 1fr;
-  height: 200px;
-  width: 200px;
+  height: 500px;
+  width: 500px;
   background-image: url(images/table.svg);
   background-size: 100% 100%;
   position: relative;
