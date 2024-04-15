@@ -74,3 +74,31 @@ h1 {
   background-image: url(images/line-winner-3.svg);
   transform: rotate(90deg);
 }
+
+@media only screen and (max-width: 428px) {
+  .table {
+    height: 300px;
+    width: 300px;
+  }
+}
+
+@media only screen and (min-width: 429px) and (max-width: 844px) {
+  .table {
+    height: 400px;
+    width: 400px;
+  }
+}
+
+@media only screen and (min-width: 845px) and (max-width: 926px) {
+  .table {
+    height: 450px;
+    width: 450px;
+  }
+}
+
+@media only screen and (min-width: 927px) {
+  .table {
+    height: 550px;
+    width: 550px;
+  }
+}
