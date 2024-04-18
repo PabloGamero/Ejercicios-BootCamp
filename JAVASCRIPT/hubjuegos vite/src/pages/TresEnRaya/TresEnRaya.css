@@ -1,5 +1,5 @@
 body {
-  background-color: #1a2f51;
+  background-color: var(--background-color);
   font-family: cursive;
 }
 .game {
